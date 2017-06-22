@@ -1,0 +1,34 @@
+TARGET = Some("x86_64-pc-windows-gnu")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-pc-windows-gnu")
+HOST = Some("x86_64-pc-windows-gnu")
+TARGET = Some("x86_64-pc-windows-gnu")
+TARGET = Some("x86_64-pc-windows-gnu")
+HOST = Some("x86_64-pc-windows-gnu")
+CC_x86_64-pc-windows-gnu = None
+CC_x86_64_pc_windows_gnu = None
+HOST_CC = None
+CC = None
+TARGET = Some("x86_64-pc-windows-gnu")
+HOST = Some("x86_64-pc-windows-gnu")
+CFLAGS_x86_64-pc-windows-gnu = None
+CFLAGS_x86_64_pc_windows_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("debug")
+running: "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-g" "-m64" "-o" "F:\\RUST_C\\Algorithms\\target\\debug\\build\\rust-to-c-42f00abb9d474fea\\out\\src\\double.o" "-c" "src/double.c"
+exit code: 0
+TARGET = Some("x86_64-pc-windows-gnu")
+TARGET = Some("x86_64-pc-windows-gnu")
+HOST = Some("x86_64-pc-windows-gnu")
+AR_x86_64-pc-windows-gnu = None
+AR_x86_64_pc_windows_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-pc-windows-gnu")
+TARGET = Some("x86_64-pc-windows-gnu")
+running: "ar" "crs" "F:\\RUST_C\\Algorithms\\target\\debug\\build\\rust-to-c-42f00abb9d474fea\\out\\libfoo.a" "F:\\RUST_C\\Algorithms\\target\\debug\\build\\rust-to-c-42f00abb9d474fea\\out\\src\\double.o"
+exit code: 0
+TARGET = Some("x86_64-pc-windows-gnu")
+cargo:rustc-link-lib=static=foo
+cargo:rustc-link-search=native=F:\RUST_C\Algorithms\target\debug\build\rust-to-c-42f00abb9d474fea\out
